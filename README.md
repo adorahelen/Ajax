@@ -48,17 +48,26 @@
 
 - 리액트에서 AJAX를 구현하려면 Javascript 내장객체인 XMLRequest를 사용하거나, 다른 HTTP Client를 사용
 - 리액트에서 많이 쓰이는 것 중에 하나인 Fetch API를 && axios 라이브러리
+- 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/c5cb3ac1-f5e6-4d0e-a667-e70291a8886c">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/ac27bf62-7cc6-4170-9262-c9e4396ba4fb">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/0e1260cb-b67a-432b-b88f-250e44bacbdc">
+
+- 위에 코드 둘다, 캡스톤 때 리액트에서 어떻게 백으로 api를 쏠지 고민하면서 마주한 코드 양식과 동일하다 
+
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b4e371ee-a572-4bcf-9bf9-3107fe2d7eeb">
-
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/c5cb3ac1-f5e6-4d0e-a667-e70291a8886c">
-
 
 - 위에서 진행한 방법은 후자 (AJAX + fetch)
 
 ## CORS
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/02efd0c0-732f-4a71-9e97-f34c7be3f39e">
+
 - CORS (교차 출처 자원 공유)는 보안 상의 이유로, JavaScript에서 보내는 교차 출처(자신과 다른 출처) HTTP 요청을 제한하기 위한 정책
 - 자신의 출처와 동일한 리소스만 불러올 수 있도록 하여, 악의적인 자원 접근과 탈취를 막기 위함
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/cf736181-e248-4b3e-9f47-1cdab45f0147">
+
 - 에러문구 : Access to fetch at ‘http://www.example.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy:
     * No ‘Access-Control-Allow-Origin’ header is present on the requested resource.
     * If an opaque response serves your needs, set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled.
@@ -78,3 +87,6 @@
     * 사전 요청 (Preflight Requests)
     * 인증을 이용하는 요청 (Credential Requests)
 - CORS 이전에는 Same-Origin Policy : SOP
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/3ee585df-363f-497b-9c17-aa59deb141c3">
+
