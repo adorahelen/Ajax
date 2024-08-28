@@ -34,3 +34,13 @@
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b4e371ee-a572-4bcf-9bf9-3107fe2d7eeb">
 
 - 위에서 진행한 방법은 후자 (AJAX + fetch)
+
+## CORS
+- 요청 메서드(method)는 GET, HEAD, POST 중 하나여야 한다
+- 아래는 이번 프로젝트에 적용 된 방법
+  
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/d3b40255-4a7d-4a47-a24d-a33049c88bc8">
+
+- 아래는 다른 방법 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/434d4647-cfb8-4861-a185-9d896d847f07">
+
