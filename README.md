@@ -48,7 +48,7 @@
 
 - 리액트에서 AJAX를 구현하려면 Javascript 내장객체인 XMLRequest를 사용하거나, 다른 HTTP Client를 사용
 - 리액트에서 많이 쓰이는 것 중에 하나인 Fetch API를 && axios 라이브러리
-- 
+  
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/c5cb3ac1-f5e6-4d0e-a667-e70291a8886c">
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/ac27bf62-7cc6-4170-9262-c9e4396ba4fb">
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/0e1260cb-b67a-432b-b88f-250e44bacbdc">
