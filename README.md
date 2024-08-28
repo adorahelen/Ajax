@@ -6,6 +6,7 @@
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/8696df31-8bed-4c69-924d-10ed1975e6b6">
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/f7d28254-142f-42f7-92ba-fa122fd9f728">
 
+- 리액트를 빌드하고, 파일을 스프링 부트안에 넣어서 돌림 -> 캡스톤 당시 사용했던 방법
 
 
 ## locallhost8070 -> localhost8080
@@ -38,6 +39,15 @@
 
 ## AJAX 비동기처리를 위한 라이브러리
 - Ajax + Axios , Ajax + fetch(내장라이브러리)
+- Ajax란 (asynchronous Javascript and XML)의 줄임말
+- 자바스크립트를 이용하여 비동기 식으로 서버와 통신
+- 비동기통신이기 때문에 서버에 요청이 가더라도 화면의 깜빡 거림이나 화면이 이동 된다는 느낌을 주지 않고 상당히 자연스럽고 빠르게 클라이언트의 화면을 변화
+
+  
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/43c63ed5-4712-40ad-9bce-62b5b2795ff8">
+
+- 리액트에서 AJAX를 구현하려면 Javascript 내장객체인 XMLRequest를 사용하거나, 다른 HTTP Client를 사용
+- 리액트에서 많이 쓰이는 것 중에 하나인 Fetch API를 && axios 라이브러리
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b4e371ee-a572-4bcf-9bf9-3107fe2d7eeb">
 
