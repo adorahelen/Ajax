@@ -2,6 +2,11 @@
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/97bba259-f695-4694-a8ee-a39c2e5a067a">
 
 - 전체적인 흐름도
+- 최근에는 프론트/백 개발 후 axios 등으로 연결하는게 아니라, nginx 사용(톰캣 같은 웹 서버)
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/8696df31-8bed-4c69-924d-10ed1975e6b6">
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/f7d28254-142f-42f7-92ba-fa122fd9f728">
+
+
 
 ## locallhost8070 -> localhost8080
 - 이렇게 접속하면 CORS 에러가 발생한다
