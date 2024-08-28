@@ -41,7 +41,7 @@
 - Ajax + Axios , Ajax + fetch(내장라이브러리)
 - Ajax란 (asynchronous Javascript and XML)의 줄임말
 - 자바스크립트를 이용하여 비동기 식으로 서버와 통신
-- 비동기통신이기 때문에 서버에 요청이 가더라도 화면의 깜빡 거림이나 화면이 이동 된다는 느낌을 주지 않고 상당히 자연스럽고 빠르게 클라이언트의 화면을 변화
+- 비동기통신이기 때문에 서버에 요청이 가더라도 화면의 깜빡 거림이나 화면이 이동 된다는 느낌을 주지 않고 자연스럽고 빠르게 클라이언트의 화면 변화
 
   
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/43c63ed5-4712-40ad-9bce-62b5b2795ff8">
@@ -50,6 +50,9 @@
 - 리액트에서 많이 쓰이는 것 중에 하나인 Fetch API를 && axios 라이브러리
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b4e371ee-a572-4bcf-9bf9-3107fe2d7eeb">
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/c5cb3ac1-f5e6-4d0e-a667-e70291a8886c">
+
 
 - 위에서 진행한 방법은 후자 (AJAX + fetch)
 
