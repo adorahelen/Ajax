@@ -36,11 +36,19 @@
 - 위에서 진행한 방법은 후자 (AJAX + fetch)
 
 ## CORS
-- 요청 메서드(method)는 GET, HEAD, POST 중 하나여야 한다
-- 아래는 이번 프로젝트에 적용 된 방법
-  
+- CORS (교차 출처 자원 공유)는 보안 상의 이유로, JavaScript에서 보내는 교차 출처(자신과 다른 출처) HTTP 요청을 제한하기 위한 정책
+- 자신의 출처와 동일한 리소스만 불러올 수 있도록 하여, 악의적인 자원 접근과 탈취를 막기 위함
+- 에러문구 : Access to fetch at ‘http://www.example.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy:
+    * No ‘Access-Control-Allow-Origin’ header is present on the requested resource.
+    * If an opaque response serves your needs, set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled.
+    * /* * main.js * local에서 main.js가 http://www.example.com에 데이터를 요청함
+    * * 출처가 다르기 때문에 CORS 에러 발생 */ $.get('http://www.example.com', function (data) { alert('Data Loaded: ' + data); });
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/dcd6dc2d-171a-4658-be63-47ddf13cc464">
+
+
+- 아래는 이번 프로젝트에 적용 된 방법 : ● Simple Request​  
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/d3b40255-4a7d-4a47-a24d-a33049c88bc8">
 
-- 아래는 다른 방법 
+- 아래는 다른 방법 : ● Preflight Request​
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/434d4647-cfb8-4861-a185-9d896d847f07">
 
