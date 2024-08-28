@@ -52,3 +52,8 @@
 - 아래는 다른 방법 : ● Preflight Request​
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/434d4647-cfb8-4861-a185-9d896d847f07">
 
+- CORS는 아래 3가지의 동작 방식 
+    * 간단한 요청 (Simple Requests)
+    * 사전 요청 (Preflight Requests)
+    * 인증을 이용하는 요청 (Credential Requests)
+- CORS 이전에는 Same-Origin Policy : SOP
