@@ -1,7 +1,7 @@
 # AJAX비동기처리+CORS
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/97bba259-f695-4694-a8ee-a39c2e5a067a">
 
-- 알아야 할 것들이  상당히 많다.
+- 전체적인 흐름도
 
 ## locallhost8070 -> localhost8080
 - 이렇게 접속하면 CORS 에러가 발생한다
