@@ -31,6 +31,6 @@
 ## AJAX 비동기처리를 위한 라이브러리
 - Ajax + Axios , Ajax + fetch(내장라이브러리)
 
-
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b4e371ee-a572-4bcf-9bf9-3107fe2d7eeb">
+
 - 위에서 진행한 방법은 후자 (AJAX + fetch)
