@@ -7,6 +7,10 @@
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/f7d28254-142f-42f7-92ba-fa122fd9f728">
 
 - 리액트를 빌드하고, 파일을 스프링 부트안에 넣어서 돌림 -> 캡스톤 당시 사용했던 방법
+- 어제 수업에서 진행한 방법은 Simple Request : CORS
+- Ajax 구현은 fetch api를 사용한게 맞다
+- 그외 방법은 ajax구현은 jquey,AXIOS 등이 있고 (ajax 구현) 
+- CORS 처리는 * 사전 요청 (Preflight Requests), * 인증을 이용하는 요청 (Credential Requests) 등이 있다.
 
 
 ## locallhost8070 -> localhost8080
